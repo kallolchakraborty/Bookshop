@@ -1,0 +1,13 @@
+GET http://localhost:4004/catalog/Books
+###
+POST http://localhost:4004/catalog/Books
+Content-Type: application/json
+
+{"ID": 10, "title": "This is the new book: Max Streifeneder"}
+
+###
+POST http://localhost:4004/catalog/Orders
+Content-Type: application/json
+
+{"ID": "82a82201-809d-4d0b-8e0a-a396b9b32210, ""book_ID": 421, "quantity": 10}
+

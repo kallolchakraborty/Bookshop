@@ -1,0 +1,9 @@
+get http://localhost:4004/catalog/Books
+
+###
+POST http://localhost:4004/catalog/Books
+Content-Type: application/json
+
+{"author_ID": 42, "ID": 150, "stock": 501, "title": "Dirk Gently"}
+
+###
